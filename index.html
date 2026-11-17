@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tech News: as principais notícias sobre inteligência artificial, blockchain, hologramas, internet, vestíveis e realidade virtual e aumentada.">
+  <title>Tech News | Portal de notícias de tecnologia</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+  <a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header">
+    <div class="navbar-primary">
+      <div class="container navbar-primary__inner">
+        <button type="button" class="menu-item" aria-label="Abrir menu">
+          <img src="./images/icons/list.svg" alt="" width="20" height="20">
+          <span>Menu</span>
+        </button>
+
+        <h1 class="logo">
+          <a href="./">Tech News</a>
+        </h1>
+
+        <button type="button" class="menu-item" aria-label="Buscar notícias">
+          <span>Buscar</span>
+          <img src="./images/icons/magnifying-glass.svg" alt="" width="20" height="20">
+        </button>
+      </div>
+    </div>
+
+    <nav class="navbar-secondary" aria-label="Categorias">
+      <ul class="container navbar-secondary__list">
+        <li><a href="#" class="link-button">Inteligência Artificial</a></li>
+        <li><a href="#" class="link-button">Blockchain</a></li>
+        <li><a href="#" class="link-button">Hologramas</a></li>
+        <li><a href="#" class="link-button">Internet</a></li>
+        <li><a href="#" class="link-button">Vestíveis</a></li>
+        <li><a href="#" class="link-button">Realidade Aumentada</a></li>
+        <li><a href="#" class="link-button">Realidade Virtual</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===================== CONTEÚDO ===================== -->
+  <main id="conteudo" class="container content">
+
+    <!-- Destaques -->
+    <section class="highlights" aria-labelledby="titulo-destaques">
+      <h2 id="titulo-destaques" class="sr-only">Destaques</h2>
+
+      <article class="card-overlay card-overlay--featured">
+        <img src="./images/news/noticia-01.png" alt="Robô humanoide branco sentado em um quarto ao lado da cama" width="608" height="416">
+        <div class="card-overlay__main">
+          <span class="tag">Robótica</span>
+          <h3 class="card-overlay__title">
+            <a href="#">Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e eficiência nas residências.</a>
+          </h3>
+        </div>
+      </article>
+
+      <article class="card-overlay">
+        <img src="./images/news/noticia-02.png" alt="Smartphone projetando imagens holográficas em 3D" width="288" height="200">
+        <div class="card-overlay__main">
+          <span class="tag">Hologramas</span>
+          <h3 class="card-overlay__title">
+            <a href="#">Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!</a>
+          </h3>
+        </div>
+      </article>
+
+      <article class="card-overlay">
+        <img src="./images/news/noticia-03.png" alt="Ilustração com o símbolo 6G e um foguete sobre a cidade" width="288" height="200">
+        <div class="card-overlay__main">
+          <span class="tag">Internet</span>
+          <h3 class="card-overlay__title">
+            <a href="#">Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comunicamos.</a>
+          </h3>
+        </div>
+      </article>
+
+      <article class="card-overlay">
+        <img src="./images/news/noticia-04.png" alt="Mulher usando fones de ouvido sem fio em uma floresta" width="288" height="200">
+        <div class="card-overlay__main">
+          <span class="tag">Vestíveis</span>
+          <h3 class="card-overlay__title">
+            <a href="#">Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o bem-estar pessoal.</a>
+          </h3>
+        </div>
+      </article>
+
+      <article class="card-overlay">
+        <img src="./images/news/noticia-05.png" alt="Crianças usando óculos de realidade virtual" width="288" height="200">
+        <div class="card-overlay__main">
+          <span class="tag">Realidade Virtual</span>
+          <h3 class="card-overlay__title">
+            <a href="#">Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem tradicional.</a>
+          </h3>
+        </div>
+      </article>
+    </section>
+
+    <!-- Mais lidas da semana -->
+    <section class="most-read" aria-labelledby="titulo-mais-lidas">
+      <header class="section-heading">
+        <h2 id="titulo-mais-lidas">Mais lidas da semana</h2>
+        <a href="#" class="link-button">
+          Ver tudo <span class="sr-only">das mais lidas da semana</span>
+          <span class="icon-arrow" aria-hidden="true">
+            <img src="./images/icons/arrow-right.svg" alt="" width="16" height="16">
+            <img src="./images/icons/arrow-right-hover.svg" alt="" width="16" height="16">
+          </span>
+        </a>
+      </header>
+
+      <div class="most-read__list">
+        <article class="card">
+          <img src="./images/news/noticia-06.png" alt="Protótipo de veículo voador laranja em um hangar" width="292" height="160" loading="lazy">
+          <span class="tag card__tag">Veículos</span>
+          <h3 class="card__title">
+            <a href="#">Protótipo de veículo voador é apresentado, marcando o início da era dos transportes aéreos pessoais.</a>
+          </h3>
+        </article>
+
+        <article class="card">
+          <img src="./images/news/noticia-07.png" alt="Homem em videoconferência com telas holográficas" width="292" height="160" loading="lazy">
+          <span class="tag card__tag">Hologramas</span>
+          <h3 class="card__title">
+            <a href="#">Plataforma de videoconferência apresenta nova função de hologramas, tornando as chamadas virtuais mais realistas e envolventes.</a>
+          </h3>
+        </article>
+
+        <article class="card">
+          <img src="./images/news/noticia-08.png" alt="Jogador com óculos de realidade virtual cercado por elementos do espaço" width="292" height="160" loading="lazy">
+          <span class="tag card__tag">Realidade virtual</span>
+          <h3 class="card__title">
+            <a href="#">Nova geração de consoles de videogame é lançada, trazendo gráficos ultra-realistas e experiências de jogo totalmente envolventes.</a>
+          </h3>
+        </article>
+
+        <article class="card">
+          <img src="./images/news/noticia-09.png" alt="Satélite orbitando a Terra" width="292" height="160" loading="lazy">
+          <span class="tag card__tag">Internet</span>
+          <h3 class="card__title">
+            <a href="#">Projeto busca oferecer internet de alta velocidade em áreas remotas através de satélites.</a>
+          </h3>
+        </article>
+      </div>
+    </section>
+
+    <!-- Destaques de IA + Aside -->
+    <div class="section-split">
+      <section class="ai-highlights" aria-labelledby="titulo-ia">
+        <header class="section-heading">
+          <h2 id="titulo-ia">Destaques de Inteligência Artificial</h2>
+          <a href="#" class="link-button">
+            Ver tudo <span class="sr-only">dos destaques de inteligência artificial</span>
+            <span class="icon-arrow" aria-hidden="true">
+            <img src="./images/icons/arrow-right.svg" alt="" width="16" height="16">
+            <img src="./images/icons/arrow-right-hover.svg" alt="" width="16" height="16">
+          </span>
+          </a>
+        </header>
+
+        <div class="ai-highlights__list">
+          <article class="card-row">
+            <div class="card-row__main">
+              <span class="tag">Inteligência Artificial</span>
+              <div class="card-row__text">
+                <h3 class="card-row__title">
+                  <a href="#">Empresa surpreende o mundo ao anunciar um algoritmo capaz de prever eventos futuros com alta precisão.</a>
+                </h3>
+                <p class="card-row__excerpt">Em um avanço surpreendente da inteligência artificial, uma empresa anuncia o desenvolvimento de um algoritmo capaz de prever eventos futuros com notável precisão. Descubra como essa tecnologia está desafiando as fronteiras da previsão e quais são as implicações para diversas áreas, desde finanças até planejamento estratégico.</p>
+              </div>
+            </div>
+            <img src="./images/news/noticia-10.png" alt="Mulher usando fones e óculos de realidade virtual" width="176" height="176" loading="lazy">
+          </article>
+
+          <article class="card-row">
+            <div class="card-row__main">
+              <span class="tag">Inteligência Artificial</span>
+              <div class="card-row__text">
+                <h3 class="card-row__title">
+                  <a href="#">Dispositivo portátil promete traduzir instantaneamente diferentes idiomas, facilitando a comunicação global.</a>
+                </h3>
+                <p class="card-row__excerpt">Em um mundo cada vez mais conectado, a comunicação sem fronteiras é essencial. Nesse contexto, um dispositivo portátil surge como um verdadeiro herói linguístico, prometendo quebrar as barreiras idiomáticas instantaneamente. Imagine poder se comunicar fluentemente em qualquer lugar do mundo, independentemente do idioma local. Este dispositivo não é mais uma visão futurista, mas uma realidade impressionante que está transformando a forma como nos conectamos globalmente. Nesta reportagem, mergulharemos nas funcionalidades deste dispositivo revolucionário e como ele está moldando uma nova era de compreensão global.</p>
+              </div>
+            </div>
+            <img src="./images/news/noticia-11.png" alt="Duas pessoas conversando enquanto olham para o celular" width="176" height="176" loading="lazy">
+          </article>
+
+          <article class="card-row">
+            <div class="card-row__main">
+              <span class="tag">Inteligência Artificial</span>
+              <div class="card-row__text">
+                <h3 class="card-row__title">
+                  <a href="#">Criados para auxiliar idosos, robôs de companhia ganham popularidade, oferecendo suporte emocional e físico aos usuários.</a>
+                </h3>
+                <p class="card-row__excerpt">A tecnologia não só avança, mas também busca tornar a vida mais significativa para todas as gerações. No cenário atual, os robôs sociais, projetados especialmente para oferecer apoio e companhia aos idosos, estão ganhando destaque. Mais do que meros assistentes, esses robôs são programados para fornecer suporte emocional e físico, preenchendo lacunas nas necessidades de cuidado. Nesta matéria, exploraremos como esses companheiros tecnológicos estão impactando positivamente a qualidade de vida da terceira idade e proporcionando uma nova perspectiva sobre o envelhecimento.</p>
+              </div>
+            </div>
+            <img src="./images/news/noticia-12.png" alt="Mão robótica digitando em um teclado ao lado de uma mão humana" width="176" height="176" loading="lazy">
+          </article>
+
+          <article class="card-row">
+            <div class="card-row__main">
+              <span class="tag">Inteligência Artificial</span>
+              <div class="card-row__text">
+                <h3 class="card-row__title">
+                  <a href="#">Aplicativo utiliza inteligência artificial para ajudar usuários a manterem o foco e aumentarem a produtividade no dia a dia.</a>
+                </h3>
+                <p class="card-row__excerpt">No turbilhão da vida moderna, onde distrações são abundantes, um aplicativo inovador surge como um aliado indispensável para quem busca maior concentração e eficiência no cotidiano. Utilizando avançados algoritmos de inteligência artificial, este aplicativo promete mais do que simplesmente gerenciar tarefas; ele está programado para compreender os padrões de trabalho de cada usuário, oferecendo sugestões personalizadas para otimizar o tempo e maximizar a produtividade. Nesta matéria, exploraremos como essa ferramenta tecnológica está se tornando a chave para manter o foco em um mundo cada vez mais cheio de distrações, transformando a maneira como encaramos nossas responsabilidades diárias.</p>
+              </div>
+            </div>
+            <img src="./images/news/noticia-13.png" alt="Mulher sorrindo enquanto usa o celular em frente ao notebook" width="176" height="176" loading="lazy">
+          </article>
+        </div>
+      </section>
+
+      <aside class="sidebar" aria-label="Conteúdo complementar">
+        <div class="ads" id="ads">
+          <a href="#" class="ads__link">
+            <img src="./images/ads.png" alt="Rocketseat: Mude de vida através da programação. Conheça a Rocketseat." width="488" height="280" loading="lazy">
+          </a>
+          <button type="button" class="ads__close" aria-label="Fechar anúncio" aria-controls="ads">
+            <img src="./images/icons/x.svg" alt="" width="16" height="16">
+          </button>
+        </div>
+
+        <section class="seen-this" aria-labelledby="titulo-viu-isso">
+          <header class="section-heading">
+            <h2 id="titulo-viu-isso">Viu isso aqui?</h2>
+            <a href="#" class="link-button">
+              Ver tudo <span class="sr-only">de viu isso aqui</span>
+              <span class="icon-arrow" aria-hidden="true">
+            <img src="./images/icons/arrow-right.svg" alt="" width="16" height="16">
+            <img src="./images/icons/arrow-right-hover.svg" alt="" width="16" height="16">
+          </span>
+            </a>
+          </header>
+
+          <div class="seen-this__list">
+            <article class="card-mini">
+              <img src="./images/news/noticia-14.png" alt="Celular exibindo um aplicativo ambiental" width="72" height="72" loading="lazy">
+              <div class="card-mini__main">
+                <span class="tag">Software</span>
+                <h3 class="card-mini__title">
+                  <a href="#">Aplicativo de monitoramento ambiental ganha destaque, incentivando práticas ecológicas e promovendo a conscientização.</a>
+                </h3>
+              </div>
+            </article>
+
+            <article class="card-mini">
+              <img src="./images/news/noticia-15.png" alt="Homem usando óculos de realidade virtual" width="72" height="72" loading="lazy">
+              <div class="card-mini__main">
+                <span class="tag">Realidade Virtual</span>
+                <h3 class="card-mini__title">
+                  <a href="#">Óculos de realidade virtual com feedback tátil proporcionam uma experiência sensorial completa, imergindo usuários em ambientes digitais.</a>
+                </h3>
+              </div>
+            </article>
+
+            <article class="card-mini">
+              <img src="./images/news/noticia-16.png" alt="Moeda digital dourada com uma planta crescendo" width="72" height="72" loading="lazy">
+              <div class="card-mini__main">
+                <span class="tag">Criptomoedas</span>
+                <h3 class="card-mini__title">
+                  <a href="#">Surge uma nova moeda digital baseada em tecnologias sustentáveis, buscando minimizar o impacto ambiental associado à mineração de criptomoedas.</a>
+                </h3>
+              </div>
+            </article>
+
+            <article class="card-mini">
+              <img src="./images/news/noticia-17.png" alt="Drone carregando um pacote de entrega" width="72" height="72" loading="lazy">
+              <div class="card-mini__main">
+                <span class="tag">Drones</span>
+                <h3 class="card-mini__title">
+                  <a href="#">Empresas de e-commerce implementam frota de drones para entregas rápidas, transformando o cenário do comércio online.</a>
+                </h3>
+              </div>
+            </article>
+
+            <article class="card-mini">
+              <img src="./images/news/noticia-18.png" alt="Pulmões humanos impressos em 3D" width="72" height="72" loading="lazy">
+              <div class="card-mini__main">
+                <span class="tag">Impressão 3D</span>
+                <h3 class="card-mini__title">
+                  <a href="#">Tecnologia inovadora permite a impressão 3D de órgãos humanos, revolucionando a medicina e a lista de espera por transplantes.</a>
+                </h3>
+              </div>
+            </article>
+          </div>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <script>
+    // Fecha o anúncio ao clicar no botão "X"
+    document.querySelector('.ads__close').addEventListener('click', () => {
+      document.getElementById('ads').hidden = true;
+    });
+  </script>
+</body>
+</html>
